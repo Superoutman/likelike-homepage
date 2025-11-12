@@ -2239,6 +2239,13 @@ body.product-page img {
     color: rgba(255, 255, 255, 0.85);
 }
 
+.hero-text-slim {
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.92);
+}
+
 .hero-footnote__link {
     color: inherit;
     text-decoration: underline;
