@@ -2274,6 +2274,22 @@ body.product-page img {
     background-color: #ef4136;
 }
 
+/* Notebook variant (product 3) */
+body.product-page--notebook .homepage-logo img {
+    filter: none;
+}
+
+body.product-page--notebook .homepage-nav-menu li a,
+body.product-page--notebook .homepage-nav-menu li a:hover,
+body.product-page--notebook .homepage-nav-menu li a.homepage-nav-active {
+    color: #000000;
+    opacity: 0.85;
+}
+
+body.product-page--notebook .hero-title {
+    color: #000000;
+}
+
 .hero-cta {
     display: inline-flex;
     align-items: center;
