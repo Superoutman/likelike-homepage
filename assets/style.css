@@ -2180,7 +2180,7 @@ body.product-page img {
 
 .hero-content {
     width: 100%;
-    max-width: 620px;
+    max-width: 720px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -2276,14 +2276,18 @@ body.product-page img {
 
 /* Notebook variant (product 3) */
 body.product-page--notebook .homepage-logo img {
-    filter: none;
+    filter: none !important;
 }
 
-body.product-page--notebook .homepage-nav-menu li a,
+body.product-page--notebook .homepage-nav-menu li a {
+    color: #111111 !important;
+    opacity: 0.9;
+}
+
 body.product-page--notebook .homepage-nav-menu li a:hover,
 body.product-page--notebook .homepage-nav-menu li a.homepage-nav-active {
-    color: #000000;
-    opacity: 0.85;
+    color: #000000 !important;
+    opacity: 1;
 }
 
 body.product-page--notebook .hero-title {
